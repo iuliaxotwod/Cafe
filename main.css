@@ -1,0 +1,39 @@
+html{
+}
+    body{
+        background-color:#4C3624;
+    }
+    h1{
+        color: beige;
+    }
+    p{
+        color: beige;
+    }
+    a{
+        color:#A98466;
+    }
+    a:hover{
+        color: antiquewhite;
+    }
+   h2{
+    color: beige;
+   }
+   th{
+    color: #A98466;
+
+   }
+   td{
+    color: antiquewhite;
+   }
+   aside{
+    color: bisque;
+   }
+   aside :hover{
+    color: #A98466;
+   }
+   legend{
+    color: beige;
+   }
+   button:hover{
+    background-color: #A98466;
+   }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Coffee Quiz">
+    <link rel="stylesheet" href="main.css">
+    <title>Quiz</title>
+</head>
+<body align="center">
+    <h1>Welcome to our coffee quiz!</h1>
+    <form action="response.html" method="get">
+    <fieldset>
+        <legend>What is our favourite coffe?</legend>
+        <p>
+            <input type="radio" name="coffee" id="Americano" value="Americano">
+            <label for="Americano">Americano</label>
+        </p>
+        <p>
+            <input type="radio" name="coffee" id="Cappucinno" value="Cappucinno">
+            <label for="Cappucinno">Cappucinno</label>
+        </p>
+        <p>
+            <input type="radio" name="coffee" id="latte" value="latte">
+            <label for="latte">Latte</label>
+        </p>
+        <p>
+            <input type="radio" name="coffee" id="black" value="black">
+            <label for="black">Black</label>
+        </p>
+        <p>
+            <input type="radio" name="coffee" id="other" value="other">
+            <label for="other">Other</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Do you drink your coffee hot or cold?</legend>
+        <p>
+            <input type="radio" name="type" id="hot" value="hot">
+            <label for="hot">Hot</label>
+        </p>
+        <p>
+            <input type="radio" name="type" id="Cold" value="Cold">
+            <label for="Cold">Cold</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Do you add condiments to your coffee?</legend>
+            <p>
+                <input type="radio" name="condiments" id="yes" value="yes">
+                <label for="yes">Yes</label>
+            </p>
+        <p>
+            <input type="radio" name="condiments" id="no" value="no">
+            <label for="no">No</label>
+        </p> 
+           
+    </fieldset>   
+    <br>
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+</form>
+<hr>
+</body>
+</html>
